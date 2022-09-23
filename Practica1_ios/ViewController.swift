@@ -4,7 +4,10 @@
 //
 //  Created by Alumnos on 23/9/22.
 //
-
+// Jose Santiago Romo
+// Osasu Sanches
+// Diego Morelo
+// Yoel Jacho
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,9 +16,33 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        multiplicacion(number1: 3, number2: 4)
+    }
+    
+    func multiplicacion(number1: Int , number2: Int){
+        
+        let number = number1 * number2
+        
+        print(number)
+        
+    parImpar()
         
     }
+    
+    func parImpar(){
+        
+        let numeros = [1, 2, 3, 5, 8, 15, 31]
+        
+        for i in numeros{
+            
+            if i % 2 == 0 {
+                print("El numero \(i) es par")
+            }else{
+                print("El numero \(i) es impar")
+            }
+        }
 
 
 }
 
+}
