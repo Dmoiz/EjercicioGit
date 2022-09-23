@@ -4,7 +4,10 @@
 //
 //  Created by Alumnos on 23/9/22.
 //
-
+// Jose Santiago Romo
+// Osasu Sanches
+// Diego Morelo
+// Yoel Jacho
 import UIKit
 
 class ViewController: UIViewController {
