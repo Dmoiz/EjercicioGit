@@ -13,6 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        multiplicacion(number1: 3, number2: 4)
+    }
+    
+    func multiplicacion(number1: Int , number2: Int){
+        
+        let number = number1 * number2
+        
+        print(number)
         
     }
 
